@@ -6,5 +6,7 @@ import { connect, useModel } from 'umi';
 export default connect()(props => {
   console.log(useModel('@@initialState'));
   console.log(useModel('index1'));
+  console.log(require('umi'));
+
   return <button className={styles['rua-button']}>{props.children}</button>;
 });
