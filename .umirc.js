@@ -15,4 +15,8 @@ export default defineConfig({
   dynamicImport: {
     loading: '@/components/views/rua-loading',
   },
+  sass: {
+    implementation: require('node-sass'),
+  },
+  plugins: [`./src/components/plugins/test`],
 });

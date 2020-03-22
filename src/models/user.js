@@ -2,6 +2,10 @@
 
 import * as services from '@/services/user';
 
+export const userModel = () => {
+  return [];
+};
+
 export default {
   namespace: 'user',
   state: {

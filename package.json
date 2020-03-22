@@ -1,4 +1,6 @@
 {
+  "name":"react-umi-app",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "umi dev",
@@ -21,13 +23,16 @@
   "dependencies": {
     "@feizheng/next-list2map": "^1.0.2",
     "@feizheng/next-react-umi": "^1.0.0",
+    "@umijs/plugin-sass": "^1.1.1",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.12",
     "axios": "^0.19.2",
     "lint-staged": "^10.0.7",
+    "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "sass-loader": "^8.0.2",
     "umi": "^3.0.12",
     "yorkie": "^2.0.0"
   }
