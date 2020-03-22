@@ -1,15 +1,5 @@
-# umi project
+# react-umi-app
+> Umi app.
 
-## Getting Started
-
-Install dependencies,
-
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```
+## resources
+- https://github.com/dvajs/dva-knowledgemap#select
