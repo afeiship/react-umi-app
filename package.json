@@ -19,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "@feizheng/next-list2map": "^1.0.2",
     "@feizheng/next-react-umi": "^1.0.0",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.12",

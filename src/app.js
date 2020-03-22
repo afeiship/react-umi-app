@@ -9,3 +9,7 @@ export function rootContainer(container, args) {
     </RuaBootstrap>
   );
 }
+
+// export function render(oldRender, args) {
+//   return setTimeout(oldRender, 1000);
+// }

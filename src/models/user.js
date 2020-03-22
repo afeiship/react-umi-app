@@ -21,6 +21,7 @@ export default {
   effects: {
     *fetchUser({ payload }, { call, put }) {
       const { data } = yield call(services.fetchUser);
+      console.log(data);
       yield put({
         type: 'setUser',
         data,
@@ -29,6 +30,9 @@ export default {
   },
   subscriptions: {
     setup({ dispatch }) {
+      console.log('fetch user!');
+      // console.log(rua);
+      // console.log(rua.$store.dispatch === dispatch);
       dispatch({
         type: 'fetchUser',
       });
