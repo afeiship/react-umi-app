@@ -3,8 +3,6 @@ import RuaVirtualRoot from '@/components/views/rua-virtual-root';
 import * as umi from 'umi';
 import { useEffect } from 'react';
 
-console.log(umi);
-
 // const store = umi.useStore();
 
 // console.log(store);
@@ -32,7 +30,7 @@ export function render(oldRender, args) {
   //   return () => {};
   // }, []);
 
-  console.log(umi.getDvaApp());
+  // console.log(umi.getDvaApp());
   // console.log(oldRender);
   return oldRender();
 }

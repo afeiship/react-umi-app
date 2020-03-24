@@ -29,7 +29,7 @@ export default {
   },
   subscriptions: {
     setup({ dispatch }) {
-      console.log('home setup!');
+      // console.log('home setup!');
       // dispatch({
       //   type: 'fetchUser',
       // });

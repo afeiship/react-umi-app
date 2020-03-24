@@ -18,5 +18,6 @@ export default defineConfig({
   sass: {
     implementation: require('node-sass'),
   },
-  plugins: [`./src/components/plugins/test`],
+  plugins: [`./plugins/plugin-nxi`],
+  nxi: 'nxi',
 });
